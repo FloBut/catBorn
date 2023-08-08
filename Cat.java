@@ -7,6 +7,8 @@ public class Cat {
     static int counterCatBorn = 0;
 
     public static int getCounterCatBorn() {
+        Scanner sc = new Scanner(System.in);
+        name = sc.nextLine();
         if (!(name.isEmpty())) {
             ++counterCatBorn;
         }
